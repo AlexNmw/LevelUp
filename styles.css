@@ -1,0 +1,162 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border:none;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header__container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__menu-items{    
+    height: 86px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Heebo', sans-serif;
+    color: #000000 !important;
+    font-weight: bold;    
+    align-items: center;
+}
+
+.header__menu-item{
+    padding-left: 15px;
+}
+
+.header__menu-item:first-child{
+    padding: 0;
+}
+
+.header__menu-link:hover{
+    color: #FF6464 ;
+}
+.hello{
+    display: flex;
+    padding: 140px 0 70px 0;
+}
+
+.hello__content-paragraph{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 20px 0 20px 0;
+}
+
+.hello_avatar{
+    padding-left: 20px;
+}
+
+.hello__image{
+    height: 223px;
+    width: 223px;
+    border-radius: 50%;
+}
+
+.hello__content-btn{
+    height: 47px;
+    width: 208px;
+    color:#FFF;
+    background: #FF6464 ;
+    border-radius: 4px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.posts{
+    background: #EDF7FA;
+}
+
+.posts__wrapper{
+    padding: 25px 0 25px 0;
+}
+
+.posts__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts__recent-paragraph{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.posts__view{
+    align-self: center;
+}
+
+.posts__view-link{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #00A8CC;
+}
+
+.post__content{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.post{
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post:first-child{
+    margin-right: 10px;
+}
+
+.post__inner{
+    padding: 30px;
+}
+
+.post__inner-text{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D
+}
+
+.post__info{
+    display: flex;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 20px 0 20px 0;
+}
+
+.post__info-sign{
+    padding: 0 30px 0 30px;
+}
+
+.post__description{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+
